@@ -166,7 +166,7 @@ numpy = 1.26.0
 pillow = 9.5.0 # don't use later versions
 pyinstaller = 6.0.0 # for packing exe
 ```
-确保``scr``文件夹、``AutoHotkeyU64.exe``程序和``autoFish.py``处于一个目录下。
+确保``scr``文件夹、``AutoHotkeyU64.exe``程序和``autoFish.py``处于一个目录下。不想下载``AutoHotkeyU64.exe``可以手动安装AutoHotKey（v1）或者```pip install "ahk[binary]"```。
 请注意，Python的``ahk``包至今有一个bug都没有修复，请参考[#263](https://github.com/spyoungtech/ahk/pull/263)自行修改``ahk``源文件。
 
 在``gameModeDetect()``函数内调整性能版本：
