@@ -569,8 +569,6 @@ def init():
 # 1) check autoPWD
 # 2) verify user's cdkey
 # 3) return user's customized keyboard config and map selection
-    machinePWD = ""
-
     try:
         print("* 尝试寻找并打开 autoPWD.txt")
         file = open("autoPWD.txt", 'r')
