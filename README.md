@@ -156,7 +156,7 @@ Python打包就是这样的，已经用upx压缩过了，嫌大你可以自己�
 
 # Python解释环境
 
-如果你想要自己用Python运行``autoRace.py``，以下是我环境的部分包：
+如果你想要自己用Python运行``autoFish.py``，以下是我环境的部分包：
 ```
 python = 3.10.13
 ahk = 1.5.0 # Require special treatment
